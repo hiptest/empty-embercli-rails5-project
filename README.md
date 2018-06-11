@@ -1,24 +1,35 @@
-# README
+# Empty ember-cli/rails project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Get the code with command:
 
-Things you may want to cover:
+```bash
+git clone git@github.com:hiptest/empty-embercli-rails5-project.git
+cd empty-embercli-rails5-project
+```
 
-* Ruby version
+You need to install:
+- Ruby 2.5
+- Rails 5.0.6
+- Node.js 8.9.4
+- npm 25.6.0
 
-* System dependencies
+Install ember-cli:
 
-* Configuration
+```bash
+npm install -g ember-cli
+```
 
-* Database creation
+Build the project:
 
-* Database initialization
+```bash
+bundle install
+bin/rake ember:install
+```
 
-* How to run the test suite
+Run the server:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+bin/rails server
+```
 
-* Deployment instructions
-
-* ...
+Go to the empty page: http://localhost:3000/
